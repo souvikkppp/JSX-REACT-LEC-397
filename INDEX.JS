@@ -9,7 +9,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const yourName = "soovik kundu";
+const name = "soovik ";
+const title = "kundu";
+
 const d = new Date();
 let year = d.getFullYear();//const d = new Date("July 21, 1983 01:15:00");
                            //let year = d.getFullYear();
@@ -17,7 +19,7 @@ let year = d.getFullYear();//const d = new Date("July 21, 1983 01:15:00");
 ReactDOM.render(
   <div>
     <h1>The paragraphs should say:</h1>
-    <p>Created by {yourName}</p>
+    <p>Created by {name + " " + title}</p>
     <p>Copyright {year}</p>
   </div>,
 
